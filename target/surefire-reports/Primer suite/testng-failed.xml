@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Primer suite]">
+  <test name="Primer test(failed)">
+    <classes>
+      <class name="scripts.BuscarEnGooglePassedTestgroup">
+        <methods>
+          <include name="RealizarBusqueda"/>
+        </methods>
+      </class> <!-- scripts.BuscarEnGooglePassedTestgroup -->
+      <class name="scripts.BuscarEnGoogleFailed">
+        <methods>
+          <include name="RealizarBusqueda"/>
+        </methods>
+      </class> <!-- scripts.BuscarEnGoogleFailed -->
+      <class name="scripts.BuscarEnGoogleSkippedTestgroup">
+        <methods>
+          <include name="RealizarBusqueda"/>
+        </methods>
+      </class> <!-- scripts.BuscarEnGoogleSkippedTestgroup -->
+      <class name="scripts.BuscarEnGoogleIgnoredTestgroup">
+        <methods>
+          <include name="RealizarBusqueda"/>
+        </methods>
+      </class> <!-- scripts.BuscarEnGoogleIgnoredTestgroup -->
+    </classes>
+  </test> <!-- Primer test(failed) -->
+</suite> <!-- Failed suite [Primer suite] -->

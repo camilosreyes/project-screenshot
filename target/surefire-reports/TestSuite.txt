@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 36.512 sec <<< FAILURE!
+RealizarBusqueda(scripts.BuscarEnGoogleFailed)  Time elapsed: 0.026 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Este título no es.] but found [Google]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at scripts.BuscarEnGoogleFailed.RealizarBusqueda(BuscarEnGoogleFailed.java:31)

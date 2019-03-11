@@ -1,0 +1,8 @@
+scripts\BuscarEnGoogleFailed.class
+scripts\BuscarEnGooglePassed.class
+scripts\BuscarEnGooglePassedTestgroup.class
+tools\Tools.class
+scripts\BuscarEnGoogleSkippedTestgroup.class
+scripts\BuscarEnGoogleIgnored.class
+scripts\BuscarEnGoogleSkipped.class
+scripts\BuscarEnGoogleIgnoredTestgroup.class
